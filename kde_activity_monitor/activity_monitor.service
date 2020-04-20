@@ -1,0 +1,8 @@
+[Unit]
+Description=KDE Activity Monitor
+ 
+[Service]
+ExecStart=%h/.local/bin/change_default_browser_per_activity.sh
+ 
+[Install]
+WantedBy=default.target
